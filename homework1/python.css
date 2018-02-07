@@ -1,0 +1,74 @@
+        body{
+            margin: 0;
+            font-family: "Source Code Pro";
+        }
+        h1{
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 45px;
+            text-align: center;
+            font-size: 48px;
+            background-color:black;
+            color: white;
+            text-decoration: underline;
+        }
+        nav{ 
+            text-align:center;
+            padding-top:20px;
+            background-color: #333333;
+            padding: 10px;
+            margin:0;
+            overflow: visible;
+        }
+        nav a{
+            margin:0;
+            padding: 10px;
+            font-size: 21px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover, #current{
+            border-bottom:2px #00ffff solid;
+            color: #00ffff;
+            padding:9px;
+            font-size: 21px;
+            transition: .5s;
+        }
+        #cont{
+           margin:0;
+        }
+        /*#sec1{*/
+        /*    background-color:orange;*/
+        /*}*/
+        #sec1, #sec2{
+            float:left;
+            text-align:center;
+            width:50%;
+            margin:0;
+            padding:0;
+            }
+        img{
+            margin-top: 60px;
+            width: 40%;
+        }
+        #ptitl{
+            font-size:30px;
+            border-bottom: 3px black solid;
+        }
+        #pmain{
+            font-size: 20px;
+            text-align:left;
+        }
+        footer{
+            clear:both;
+            padding-top: 45px;
+            font-size:15px;
+            text-align:center;
+        }
+        #foot a{
+            text-decoration: underline;
+            color:#cc0000;
+        }
+        #foot a:hover{
+            color: #ff8080;
+        }

@@ -1,0 +1,71 @@
+        body{
+            margin: 0;
+            font-family: "Source Code Pro";
+        }
+        h1{
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 45px;
+            text-align: center;
+            font-size: 48px;
+            background-color:black;
+            color: white;
+            text-decoration: underline;
+        }
+        nav{ 
+            text-align:center;
+            padding-top:20px;
+            background-color: #333333;
+            padding: 10px;
+            overflow: visible;
+            
+            
+        }
+        nav a{
+            padding: 10px;
+            font-size: 21px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover, #current{
+            border-bottom:2px #00ffff solid;
+            color: #00ffff;
+            padding:9px;
+            font-size: 21px;
+            transition: .5s;
+        }
+        section{
+            padding-top:15px;
+            text-align: center;
+        }
+        img{
+            margin: 0;
+            width: 100%;
+        }
+        ul{
+
+            text-align:left;
+            font-size: 25px;
+            padding-left: 225px
+        }
+        #overview{
+            margin: 0;
+            padding-left:150px;
+            font-size:40px;
+            text-decoration:underline;
+        }
+        hr{
+            width:30%;
+        }
+        footer{
+            padding-top: 25px;
+            font-size:15px;
+            text-align:center;
+        }
+        #foot a{
+            text-decoration: underline;
+            color:#cc0000;
+        }
+        #foot a:hover{
+            color: #ff8080;
+        }
