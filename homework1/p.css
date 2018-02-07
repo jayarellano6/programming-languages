@@ -48,8 +48,8 @@
             padding:0;
             }
         img{
-            margin-top: 50px;
-            width: 40%;
+            margin-top: 70px;
+            width: 60%;
         }
         #ptitl{
             font-size:30px;
@@ -59,9 +59,12 @@
             font-size: 20px;
             text-align:left;
         }
+        hr{
+            width:30%;
+        }
         footer{
             clear:both;
-            padding-top: 45px;
+            padding-top: 25px;
             font-size:15px;
             text-align:center;
         }

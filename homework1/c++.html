@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>
             Programming Languages
         </title>
         
-        <style type="text/css">
-            @import url("./c++.css");
+        <style>
+            @import url("./c.css");
         </style>
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     </head>
@@ -18,37 +19,36 @@
         
         <nav>
             <!--<hr width= "50%">-->
-            <a href= "php.html">PHP</a>
-            <a href= "python.html">Python</a>
-            <a href= "index.php">Home</a>
-            <a href= "c++.html" id= "current">C++</a>
-            <a href= "java.html">Java</a>
+            <a href= "./php.html">PHP</a>
+            <a href= "./python.html">Python</a>
+            <a href= "./index.php">Home</a>
+            <a href= "./c++.html" id= "current">C++</a>
+            <a href= "./java.html">Java</a>
         </nav>
 
         <div id= "cont">
-            <section id= "sec1">
-                <img src= "./img/c++.png">
-            </section>
-            <section id= "sec2">
+            <figure id= "sec1">
+                <img src= "./img/c++.png" alt= "c plus plus">
+            </figure>
+            <div id= "sec2">
                 <p id= "ptitl">C++</p>
                 <p id= "pmain">
                     <strong><em>C++</em></strong> is a general-purpose programming language.
                     <br><br>
-                     It has imperative, object-oriented and generic programming features, while also 
-                     providing facilities for low-level memory manipulation.
+                     Supports programming models such as imperative, object-oriented and generic programming features; also 
+                     provides for low-level memory manipulation.
                     <br><br>
-                     <strong><em>C++</em></strong> has also been found useful in many other contexts, with key strengths being 
+                     <strong><em>C++</em></strong> has also been found useful in many contexts, most notably:  
                      software infrastructure and resource-constrained applications, including desktop 
-                     applications, servers (e.g. e-commerce, web search or SQL servers), and 
-                     performance-critical applications (e.g. telephone switches or space probes).
+                     applications, servers (e.g. e-commerce, web search or SQL servers).
                 </p>
                 <br>
-            </section>
+            </div>
         </div>
         
         <footer>
-            <hr width="30%"><br>
-            <p id= "foot"><a href= "https://en.wikipedia.org/wiki/C%2B%2B">{all information is from here}</a></p>
+            <hr> 
+            <p id= "foot">{<a href= "https://en.wikipedia.org/wiki/c++">all information is from here</a>}</p>
         </footer>
     </body>
 </html>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>
             Programming Languages
         </title>
         
-        <style type="text/css">
-            @import url("./java.css");
+        <style>
+            @import url("./j.css");
         </style>
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     </head>
@@ -18,36 +19,38 @@
         
         <nav>
             <!--<hr width= "50%">-->
-            <a href= "php.html">PHP</a>
-            <a href= "python.html">Python</a>
-            <a href= "index.php">Home</a>
-            <a href= "c++.html">C++</a>
-            <a href= "java.html" id= "current">Java</a>
+            <a href= "./php.html">PHP</a>
+            <a href= "./python.html">Python</a>
+            <a href= "./index.php">Home</a>
+            <a href= "./c++.html">C++</a>
+            <a href= "./java.html" id= "current">Java</a>
         </nav>
 
         <div id= "cont">
-            <section id= "sec1">
-                <img src= "./img/java.png">
-            </section>
-            <section id= "sec2">
+            <figure id= "sec1">
+                <img src= "./img/java.png" alt= "java">
+            </figure>
+            <div id= "sec2">
                 <p id= "ptitl">Java</p>
                 <p id= "pmain">
-                    <strong><em>Java</em></strong> is a general-purpose computer-programming language that is concurrent, 
-                    class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.
+                    <strong><em>Java</em></strong> is a general-purpose computer-programming language that is  
+                    class-based, object-oriented, and designed specifically to have few implementation dependencies.
                     <br><br>
                     <strong><em>Java</em></strong> applications are typically compiled to bytecode that can run on any <strong><em>Java</em></strong> 
-                    virtual machine (JVM) regardless of computer architecture. As of 2016, <strong><em>Java</em></strong> is 
+                    virtual machine (JVM).
+                    <br><br>
+                    As of 2016, <strong><em>Java</em></strong> is 
                     one of the most popular programming languages in use.
                     <br><br>
-                    The Android SDK uses the <strong><em>Java</em></strong> language as the basis for Android applications.
+                    The Android SDK uses <strong><em>Java</em></strong> as the basis for Android applications.
                 </p>
                 <br>
-            </section>
+            </div>
         </div>
         
         <footer>
-            <hr width="30%"><br>
-            <p id= "foot"><a href= "https://en.wikipedia.org/wiki/C%2B%2B">{all information is from here}</a></p>
+            <hr>
+            <p id= "foot">{<a href= "https://en.wikipedia.org/wiki/java_(programming_language)">all information is from here</a>}</p>
         </footer>
     </body>
 </html>
